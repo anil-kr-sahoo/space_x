@@ -113,7 +113,6 @@ class MyGame:
                             self.ufo_X_change = - self.source_enemy_power[i] - 0.5
                         except:
                             self.ufo_X_change = - self.source_enemy_power[0]
-                        print(self.ufo_X_change)
                     if event.key == pygame.K_RIGHT:
                         try:
                             self.ufo_X_change = self.source_enemy_power[i] + 0.5
